@@ -12,9 +12,8 @@ Free margin calculator using the margin formula ((R - C) / R) × 100 to help bus
 3. Activate the [Margin Calculator](https://www.calculator.io/margin-calculator/ "Margin Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_margin_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Margin Calculator to the sidebar through the `Appearance -> Widgets -> Margin Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_margin_calculator(); ?>` to your template where you would like the Margin Calculator to appear.
+* Add the shortcode `[ci_margin_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_margin_calculator(); ?>` to your template where you would like the Margin Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
