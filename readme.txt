@@ -13,6 +13,8 @@ Free margin calculator using the margin formula ((R - C) / R) × 100 to help bus
 
 Free margin calculator using the margin formula ((R - C) / R) × 100 to help businesses quickly calculate both margin and markup percentages based on cost and sale price.
 
+[Margin Calculator Homepage](https://www.calculator.io/margin-calculator/ "Margin Calculator Homepage")
+
 __Shortcode__
 
 Use the Margin Calculator shortcode:
