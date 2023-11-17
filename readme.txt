@@ -1,6 +1,6 @@
 === Margin Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: margin calculator, profit margin, gross margin, operating margin, net profit margin, business profitability, pricing strategy, cost analysis, margin percentage, sales margin, markup calculation
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
