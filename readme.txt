@@ -1,4 +1,4 @@
-=== Margin Calculator by www.calculator.io ===
+=== CI Margin calculator ===
 Contributors: calculatorio
 Tags: margin calculator, profit margin, gross margin, operating margin, net profit margin, business profitability, pricing strategy, cost analysis, margin percentage, sales margin, markup calculation
 Requires at least: 5.0

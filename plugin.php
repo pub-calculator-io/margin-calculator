@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Margin Calculator by www.calculator.io
+Plugin Name: CI Margin calculator
 Plugin URI: https://www.calculator.io/margin-calculator/
 Description: Free margin calculator using the margin formula ((R - C) / R) × 100 to help businesses quickly calculate both margin and markup percentages based on cost and sale price.
 Version: 1.0.0
