@@ -28,7 +28,7 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col investment-calculator,financial-calculator,roi-calculator,business-loan-calculator  ">
                 			<p class="input__title">Cost</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -36,7 +36,7 @@
                 			</div>
                 		
                 		
-                		</label>		<label class="input col   ">
+                		</label>		<label class="input col investment-calculator,financial-calculator,roi-calculator,business-loan-calculator  ">
                 			<p class="input__title">Revenue</p>
                 			<div class="input-field row">
                 					<span class="input-field__hint">$</span>
@@ -51,13 +51,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -72,8 +74,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper">
 		<table class="result-table">
@@ -82,7 +83,7 @@
 					<th class="dark indigo" colspan="2">Result</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody class="animate">
 				<tr>
 					<th class="semibold">Gross Margin</th>
 					<td class="semibold" id="result">36.00%</td>
